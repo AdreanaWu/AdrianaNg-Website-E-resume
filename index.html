@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style type="text/css">
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            background-color: #bf8963;
+        }
+        header {
+            background-color: #1a5276;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            font-size: 35px;
+            color: #7fb3d5;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .img_deg {
+            float: left;
+            margin-left: 100px;
+            width: 300px;
+            height: 400px;
+        }
+        .logo {
+            max-width: 145px;
+            position: absolute;
+            left: 30px;
+        }
+        footer {
+            width: 100%;
+            background-color: #1a5276;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            box-sizing: border-box;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: #7fb3d5;
+        }
+        nav {
+            background-color: #7fb3d5;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        nav li a {
+            color: #f4f6f7;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            text-decoration: underline;
+        }
+        section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex: 1;
+            width: 100%;
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #bf8963;
+            color: black;
+            font-size: 20px;
+            line-height: 1.0cm;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+            box-sizing: border-box;
+        }
+        .section-content {
+            flex: 1;
+            text-align: center;
+        }
+        table {
+            width: 80%; 
+            border-collapse: collapse;
+            margin: 20px auto; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+            box-sizing: border-box;
+        }
+        table, th, td {
+            border: 1px solid #1a5276;
+            padding: 20px;
+            text-align: center;
+        }
+        td {
+            background-color: #7fb3d5;
+            color: black;
+            font-family: Baskerville Old Face;
+            font-weight: bold;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right-image {
+            width: 300px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="Picture/Adriana Ng Logo.png" alt="Logo" class="logo">
+        <h1>WELCOME!</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="personal.html">About Me</a></li>
+            <li><a href="education.html">Educational Background</a></li>
+            <li><a href="workexperiences.html">Work Experiences</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contactme.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <div class="section-content">
+            <h1>
+                <img src="Picture/logo-uitm.png" style="width: 400px; height: 200px" class="center">
+                <p style="font-family: Algerian;"> COLLEGE OF COMPUTING, INFORMATICS AND MEDIA</p>
+                <p style="font-family: Algerian;"> UNIVERSITI TEKNOLOGI MARA</p>
+                <p style="font-family: Algerian;"> KAMPUS PUNCAK PERDANA</p>
+            </h1>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>TITLE :</td>
+                        <td>E-resume Website</td>
+                    </tr>
+                    <tr>
+                        <td>NAME :</td>
+                        <td>Adriana Ng</td>
+                    </tr>
+                    <tr>
+                        <td>STUDENT ID :</td>
+                        <td>2022822142</td>
+                    </tr>
+                    <tr>
+                        <td>GROUP :</td>
+                        <td>CDIM244ST2</td>
+                    </tr>
+                    <tr>
+                        <td>COURSE NAME :</td>
+                        <td>Basic Web Design and Content Management (IMS456)</td>
+                    </tr>
+                    <tr>
+                        <td>SUBMISSION DATE :</td>
+                        <td>18th June 2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="image-container">
+            <img src="Picture/home pic.jpg" class="right-image">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Adriana Ng Website. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/adriana.ng.02/" target="_blank" class="fab fa-facebook-f"></a>
+            <a href="https://www.instagram.com/dr3n4wu/" target="_blank" class="fab fa-instagram"></a>
+            <a href="mailto:drenawutoki@gmail.com" target="_blank" class="fas fa-envelope"></a>
+            <a href="tel:+60179521174" target="_blank" class="fas fa-phone"></a>
+        </div>
+    </footer>
+</body>
+</html>
